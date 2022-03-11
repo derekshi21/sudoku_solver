@@ -30,7 +30,7 @@ def binary_search(list, target, low=None, high=None):
         
 
 if __name__ == "__main__":
-    length = 9999
+    length = int(input("How long will the search list parameters be?: "))
     sorted_list = set()
     while len(sorted_list) < length:
         sorted_list.add(random.randint(-3*length, 3*length))
