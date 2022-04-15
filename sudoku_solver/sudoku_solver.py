@@ -69,6 +69,9 @@ def print_board(bo):
                 print(str(bo[i][j]) + " ", end="")
 
 if __name__ == "__main__":
+    print("Original board: ")
     print_board(board)
+    print("")
     solve(board)
+    print("New board: ")
     print_board(board)
