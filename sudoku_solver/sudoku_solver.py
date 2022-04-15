@@ -20,8 +20,8 @@ def find_next_empty(bo):
     return False
 
 def valid_guess(bo, num, pos):
-    row_val = bo[pos[0]]
-    if num in row_val:
+    row_vals = bo[pos[0]]
+    if num in row_vals:
         return False
     
     col_vals = [bo[i][pos[1]] for i in range(len(bo))]
