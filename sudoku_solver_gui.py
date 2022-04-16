@@ -227,7 +227,7 @@ def format_time(secs):
     minute = secs//60
     hour = minute//60
 
-    mat = " " + str(minute) + ":" + str(sec)
+    mat = " " + +str(hour) + ":" + str(minute) + ":" + str(sec)
     return mat
 
 def main():
